@@ -14,14 +14,29 @@ struct ContentView: View {
     var body: some View {
         
         ZStack {
-            Text("View Transition")
-                .padding()
-                .background(Capsule().stroke())
-                .onTapGesture {
-                    withAnimation(.easeInOut) {
-                        show.toggle()
-                    }
+            
+            Image("Louie-2")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                
+            VStack {
+                
+                Spacer()
+                
+                Text("View Transition")
+                        .padding()
+                    .background(
+                        Capsule()
+                            .fill(Color.white)
+                    )
+                    .onTapGesture {
+                        withAnimation(.easeInOut) {
+                            show.toggle()
+                        }
                 }
+            }
+
             if show {
                 BindingView(show: $show)
                     .transition(.move(edge: .bottom))
