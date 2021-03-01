@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct BindingView: View {
+    
+    @Binding var show: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 30)
+            .fill(Color.pink)
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .onTapGesture {
+                withAnimation(.easeInOut) {
+                    show.toggle()
+               }
+            }
     }
 }
 
 struct BindingView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        BindingView()
+        BindingView(show: .constant(true))
     }
 }
