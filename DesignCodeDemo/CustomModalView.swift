@@ -8,8 +8,33 @@
 import SwiftUI
 
 struct CustomModalView: View {
+    
+    @State var showModal = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    
+        ZStack {
+            
+            Button(action: {
+                showModal = true
+            }) {
+                Text("Sign In")
+            }
+        
+            if showModal {
+            
+                Rectangle()
+                    .foregroundColor(Color.black.opacity(0.5))
+                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .onTapGesture {
+                        showModal = false
+                }
+                
+                SignInView()
+
+            }
+        
+        }
     }
 }
 

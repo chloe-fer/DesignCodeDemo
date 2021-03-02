@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct ModalView: View {
+    
+    @State var showModal = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Button(action: {
+            showModal = true
+        }) {
+            Capsule().fill(Color.pink)
+                .frame(width: 100, height: 44)
+                .overlay(Text("Press Me")
+                    .foregroundColor(.white)
+                )
+        }
+        .sheet(isPresented: $showModal, content: {
+            ShapesView()
+        })
     }
 }
 
