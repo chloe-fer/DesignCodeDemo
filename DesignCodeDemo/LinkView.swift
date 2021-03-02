@@ -10,10 +10,21 @@ import SwiftUI
 struct LinkView: View {
     var body: some View {
         
-        VStack(spacing: 50) {
+        VStack(spacing: 30) {
             
             Link("Design+Code", destination: URL(string: "https://designcode.io")!)
                 .font(.title)
+            
+            HStack {
+                Text("Visit Design+Code")
+                    .onTapGesture {
+                        UIApplication.shared.open(URL(string: "https://designcode.io")!, options: [:])
+                }
+                Text("or Visit Hacking With Swift")
+                    .onTapGesture {
+                        UIApplication.shared.open(URL(string: "https://www.hackingwithswift.com")!, options: [:])
+                    }
+            }
             
             Link(destination: URL(string: "https://designcode.io")!, label: {
                 Text("WTF")
