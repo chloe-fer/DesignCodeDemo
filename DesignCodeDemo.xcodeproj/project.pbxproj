@@ -17,6 +17,8 @@
 		1711952B25ECB9ED00EAF561 /* CustomModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711952A25ECB9ED00EAF561 /* CustomModalView.swift */; };
 		1711952E25ECBA2F00EAF561 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711952D25ECBA2F00EAF561 /* SignInView.swift */; };
 		1711953125EE342000EAF561 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953025EE342000EAF561 /* LinkView.swift */; };
+		1711953425EE81AD00EAF561 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953325EE81AD00EAF561 /* MaxView.swift */; };
+		1711953725EE845B00EAF561 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953625EE845B00EAF561 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		1711952A25ECB9ED00EAF561 /* CustomModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalView.swift; sourceTree = "<group>"; };
 		1711952D25ECBA2F00EAF561 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		1711953025EE342000EAF561 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		1711953325EE81AD00EAF561 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
+		1711953625EE845B00EAF561 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				1711953025EE342000EAF561 /* LinkView.swift */,
 				1711952D25ECBA2F00EAF561 /* SignInView.swift */,
 				1711952425ECB3FF00EAF561 /* BindingView.swift */,
+				1711953325EE81AD00EAF561 /* MaxView.swift */,
+				1711953625EE845B00EAF561 /* TextView.swift */,
 				170D6A6425EBF27800078C22 /* ShapesView.swift */,
 				170D6A5825EBF26000078C22 /* Assets.xcassets */,
 				170D6A5D25EBF26000078C22 /* Info.plist */,
@@ -164,6 +170,8 @@
 				1711952B25ECB9ED00EAF561 /* CustomModalView.swift in Sources */,
 				170D6A6525EBF27800078C22 /* ShapesView.swift in Sources */,
 				1711952825ECB8CB00EAF561 /* ModalView.swift in Sources */,
+				1711953425EE81AD00EAF561 /* MaxView.swift in Sources */,
+				1711953725EE845B00EAF561 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,32 @@ import SwiftUI
 
 struct MaxView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        ZStack {
+            
+            Color.pink
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .overlay(
+            Image(systemName: "xmark")
+                .frame(width: 32, height: 32)
+                .background(Circle().stroke())
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                .padding()
+            )
+        }
+        .foregroundColor(.white)
+        
+        
+//        VStack {
+//            HStack {
+//                Image(systemName: "xmark")
+//                    .frame(width: 32, height: 32)
+//                    .background(Circle().stroke())
+//                Spacer()
+//            }
+//            Spacer()
+//        }
+//        .padding()
     }
 }
 
