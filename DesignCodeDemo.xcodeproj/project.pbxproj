@@ -19,6 +19,9 @@
 		1711953125EE342000EAF561 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953025EE342000EAF561 /* LinkView.swift */; };
 		1711953425EE81AD00EAF561 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953325EE81AD00EAF561 /* MaxView.swift */; };
 		1711953725EE845B00EAF561 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953625EE845B00EAF561 /* TextView.swift */; };
+		1711953A25EFB44700EAF561 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953925EFB44700EAF561 /* VideoView.swift */; };
+		1711953D25EFB6DD00EAF561 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953C25EFB6DD00EAF561 /* SidebarView.swift */; };
+		1711954025EFB76800EAF561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953F25EFB76800EAF561 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		1711953025EE342000EAF561 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		1711953325EE81AD00EAF561 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
 		1711953625EE845B00EAF561 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1711953925EFB44700EAF561 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		1711953C25EFB6DD00EAF561 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		1711953F25EFB76800EAF561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 				1711952425ECB3FF00EAF561 /* BindingView.swift */,
 				1711953325EE81AD00EAF561 /* MaxView.swift */,
 				1711953625EE845B00EAF561 /* TextView.swift */,
+				1711953925EFB44700EAF561 /* VideoView.swift */,
+				1711953C25EFB6DD00EAF561 /* SidebarView.swift */,
+				1711953F25EFB76800EAF561 /* HomeView.swift */,
 				170D6A6425EBF27800078C22 /* ShapesView.swift */,
 				170D6A5825EBF26000078C22 /* Assets.xcassets */,
 				170D6A5D25EBF26000078C22 /* Info.plist */,
@@ -164,13 +173,16 @@
 			files = (
 				170D6A5725EBF25B00078C22 /* ContentView.swift in Sources */,
 				1711952E25ECBA2F00EAF561 /* SignInView.swift in Sources */,
+				1711954025EFB76800EAF561 /* HomeView.swift in Sources */,
 				1711953125EE342000EAF561 /* LinkView.swift in Sources */,
 				170D6A5525EBF25B00078C22 /* DesignCodeDemoApp.swift in Sources */,
 				1711952525ECB3FF00EAF561 /* BindingView.swift in Sources */,
+				1711953D25EFB6DD00EAF561 /* SidebarView.swift in Sources */,
 				1711952B25ECB9ED00EAF561 /* CustomModalView.swift in Sources */,
 				170D6A6525EBF27800078C22 /* ShapesView.swift in Sources */,
 				1711952825ECB8CB00EAF561 /* ModalView.swift in Sources */,
 				1711953425EE81AD00EAF561 /* MaxView.swift in Sources */,
+				1711953A25EFB44700EAF561 /* VideoView.swift in Sources */,
 				1711953725EE845B00EAF561 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
