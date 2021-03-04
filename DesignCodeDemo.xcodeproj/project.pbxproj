@@ -24,7 +24,9 @@
 		1711954025EFB76800EAF561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953F25EFB76800EAF561 /* HomeView.swift */; };
 		1711954325EFB9D400EAF561 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711954225EFB9D400EAF561 /* DateFormatter.swift */; };
 		1711954625EFBCD200EAF561 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711954525EFBCD200EAF561 /* ShareSheetView.swift */; };
+		17D59B6925F0F3D200D50C8C /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D59B6825F0F3D200D50C8C /* LazyGridView.swift */; };
 		17EE441725F0AD0A00CE21B2 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */; };
+		17EE441A25F0B30600CE21B2 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE441925F0B30600CE21B2 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +49,9 @@
 		1711953F25EFB76800EAF561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1711954225EFB9D400EAF561 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		1711954525EFBCD200EAF561 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		17D59B6825F0F3D200D50C8C /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		17EE441925F0B30600CE21B2 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			children = (
 				170D6A5425EBF25B00078C22 /* DesignCodeDemoApp.swift */,
 				170D6A5625EBF25B00078C22 /* ContentView.swift */,
+				17EE441925F0B30600CE21B2 /* TransitionView.swift */,
+				17D59B6825F0F3D200D50C8C /* LazyGridView.swift */,
 				1711954525EFBCD200EAF561 /* ShareSheetView.swift */,
 				1711952725ECB8CB00EAF561 /* ModalView.swift */,
 				1711952A25ECB9ED00EAF561 /* CustomModalView.swift */,
@@ -180,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EE441A25F0B30600CE21B2 /* TransitionView.swift in Sources */,
 				170D6A5725EBF25B00078C22 /* ContentView.swift in Sources */,
+				17D59B6925F0F3D200D50C8C /* LazyGridView.swift in Sources */,
 				1711952E25ECBA2F00EAF561 /* SignInView.swift in Sources */,
 				1711954025EFB76800EAF561 /* HomeView.swift in Sources */,
 				1711953125EE342000EAF561 /* LinkView.swift in Sources */,

@@ -24,14 +24,14 @@ struct ContentView: View {
             
             VStack(alignment: .leading) {
                 Text(today.uppercased())
-                    .font(.title)
+                    .font(.body)
                     .foregroundColor(.secondary)
                     .bold()
                 Text("Louie")
-                    .font(.system(size: 50))
+                    .font(.title)
                     .bold()
             }
-            .padding(.leading, 40)
+            .padding(.leading, 100)
 
                 
             VStack(alignment: .center) {
