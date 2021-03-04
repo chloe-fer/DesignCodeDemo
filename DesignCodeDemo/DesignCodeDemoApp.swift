@@ -12,8 +12,8 @@ struct DesignCodeDemoApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            //LinkView()
-            SidebarView()
+            LinkView()
+            //SidebarView()
         }
     }
 }

@@ -11,21 +11,35 @@ struct ContentView: View {
     
     @State var show = false
     
+    let today = Date().formatDate()
+    
     var body: some View {
         
-        ZStack {
+        ZStack(alignment: .topLeading) {
             
             Image("Louie-2")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
+            VStack(alignment: .leading) {
+                Text(today.uppercased())
+                    .font(.title)
+                    .foregroundColor(.secondary)
+                    .bold()
+                Text("Louie")
+                    .font(.system(size: 50))
+                    .bold()
+            }
+            .padding(.leading, 40)
+
                 
-            VStack {
+            VStack(alignment: .center) {
                 
-                Spacer()
+               Spacer()
                 
                 Text("View Transition")
-                        .padding()
+                    .padding()
                     .background(
                         Capsule()
                             .fill(Color.white)
@@ -36,6 +50,7 @@ struct ContentView: View {
                         }
                 }
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
 
             if show {
                 BindingView(show: $show)

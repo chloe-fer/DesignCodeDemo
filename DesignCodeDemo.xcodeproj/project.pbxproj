@@ -22,6 +22,9 @@
 		1711953A25EFB44700EAF561 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953925EFB44700EAF561 /* VideoView.swift */; };
 		1711953D25EFB6DD00EAF561 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953C25EFB6DD00EAF561 /* SidebarView.swift */; };
 		1711954025EFB76800EAF561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953F25EFB76800EAF561 /* HomeView.swift */; };
+		1711954325EFB9D400EAF561 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711954225EFB9D400EAF561 /* DateFormatter.swift */; };
+		1711954625EFBCD200EAF561 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711954525EFBCD200EAF561 /* ShareSheetView.swift */; };
+		17EE441725F0AD0A00CE21B2 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		1711953925EFB44700EAF561 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		1711953C25EFB6DD00EAF561 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		1711953F25EFB76800EAF561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1711954225EFB9D400EAF561 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		1711954525EFBCD200EAF561 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 			children = (
 				170D6A5425EBF25B00078C22 /* DesignCodeDemoApp.swift */,
 				170D6A5625EBF25B00078C22 /* ContentView.swift */,
+				1711954525EFBCD200EAF561 /* ShareSheetView.swift */,
 				1711952725ECB8CB00EAF561 /* ModalView.swift */,
 				1711952A25ECB9ED00EAF561 /* CustomModalView.swift */,
 				1711953025EE342000EAF561 /* LinkView.swift */,
@@ -85,7 +92,9 @@
 				1711953625EE845B00EAF561 /* TextView.swift */,
 				1711953925EFB44700EAF561 /* VideoView.swift */,
 				1711953C25EFB6DD00EAF561 /* SidebarView.swift */,
+				17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */,
 				1711953F25EFB76800EAF561 /* HomeView.swift */,
+				1711954225EFB9D400EAF561 /* DateFormatter.swift */,
 				170D6A6425EBF27800078C22 /* ShapesView.swift */,
 				170D6A5825EBF26000078C22 /* Assets.xcassets */,
 				170D6A5D25EBF26000078C22 /* Info.plist */,
@@ -178,9 +187,12 @@
 				170D6A5525EBF25B00078C22 /* DesignCodeDemoApp.swift in Sources */,
 				1711952525ECB3FF00EAF561 /* BindingView.swift in Sources */,
 				1711953D25EFB6DD00EAF561 /* SidebarView.swift in Sources */,
+				1711954625EFBCD200EAF561 /* ShareSheetView.swift in Sources */,
 				1711952B25ECB9ED00EAF561 /* CustomModalView.swift in Sources */,
 				170D6A6525EBF27800078C22 /* ShapesView.swift in Sources */,
+				17EE441725F0AD0A00CE21B2 /* ToolbarView.swift in Sources */,
 				1711952825ECB8CB00EAF561 /* ModalView.swift in Sources */,
+				1711954325EFB9D400EAF561 /* DateFormatter.swift in Sources */,
 				1711953425EE81AD00EAF561 /* MaxView.swift in Sources */,
 				1711953A25EFB44700EAF561 /* VideoView.swift in Sources */,
 				1711953725EE845B00EAF561 /* TextView.swift in Sources */,

@@ -26,16 +26,18 @@ struct LinkView: View {
                     }
             }
             
-            Link(destination: URL(string: "https://designcode.io")!, label: {
-                Text("WTF")
-                Image(systemName: "link")
-                    .imageScale(.small)
-                    .frame(width: 32, height: 32)
-                    .background(Color.blue)
-                    .mask(Circle())
-                    //.clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(.white)
-            })
+            VStack {
+                Link(destination: URL(string: "https://designcode.io")!, label: {
+                    Image(systemName: "link")
+                        .imageScale(.small)
+                        .frame(width: 36, height: 36)
+                        .foregroundColor(.white)
+                        .background(Color.blue)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .shadow(color: .blue, radius: 5, x: 2, y: 2)
+                        //.mask(Circle()
+                })
+            }
             
             
             Image("Louie-2")
