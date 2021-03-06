@@ -9,11 +9,15 @@ import SwiftUI
 
 @main
 struct DesignCodeDemoApp: App {
+        
     var body: some Scene {
+        
         WindowGroup {
             //ContentView()
-            LinkView()
+            AnimalView()
+            //LinkView()
             //SidebarView()
         }
+        
     }
 }

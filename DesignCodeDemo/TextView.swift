@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct TextView: View {
+    
+    var authors = ["Meng To", "Surya Anand", "Sai Kambampati"]
+    
+    func serialized(array: [String]) -> String {
+        array.count > 2 ? array.joined(separator: " and ") : array.dropLast().joined(separator: ", ") + " and" + array.last!
+    }
+    
     var body: some View {
         
         VStack(spacing: 10) {
@@ -39,6 +46,9 @@ struct TextView: View {
                 .padding()
                 .lineLimit(2)
             
+            Text(serialized(array: authors))
+            
+            Text(authors.serialized)
         }
         
         
