@@ -13,10 +13,20 @@ struct AnimalView: View {
         
         
         List(animals) { animal in
-            VStack(alignment: .leading) {
-                    Text(animal.name)
-                        .font(.title)
-                    Text(animal.type)
+            HStack {
+                VStack(alignment: .leading) {
+                        Text(animal.name)
+                            .font(.title)
+                        Text(animal.type)
+                            .foregroundColor(.secondary)
+                }
+                Spacer()
+                Text("\(animal.age)")
+                    .frame(width: 36, height: 36)
+                    .background(Color.pink)
+                    .foregroundColor(.white)
+                    .clipShape(Circle())
+                
             }
         }
 //        VStack {

@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct StatusBarView: View {
+    
+    @State var isHidden = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Status bar")
+            .statusBar(hidden: isHidden)
+            .onTapGesture {
+                withAnimation {
+                    isHidden.toggle()
+                }
+            }
     }
 }
 

@@ -24,12 +24,13 @@
 		1711954025EFB76800EAF561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711953F25EFB76800EAF561 /* HomeView.swift */; };
 		1711954325EFB9D400EAF561 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711954225EFB9D400EAF561 /* DateFormatter.swift */; };
 		1711954625EFBCD200EAF561 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711954525EFBCD200EAF561 /* ShareSheetView.swift */; };
+		17B55C8E25F34E6700A05414 /* animalData.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B55C8D25F34E6700A05414 /* animalData.json */; };
+		17B55C9125F34E9C00A05414 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B55C9025F34E9C00A05414 /* StatusBarView.swift */; };
 		17D532B425F21D9600FAF877 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D532B325F21D9600FAF877 /* DatePickerView.swift */; };
 		17D532BB25F224BB00FAF877 /* BidirectionalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D532BA25F224BB00FAF877 /* BidirectionalCollection.swift */; };
 		17D532BF25F2277E00FAF877 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D532BE25F2277E00FAF877 /* Animal.swift */; };
 		17D532C325F22A1F00FAF877 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D532C225F22A1F00FAF877 /* AnimalView.swift */; };
 		17D532C625F22A7200FAF877 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D532C525F22A7200FAF877 /* ModelData.swift */; };
-		17D532CA25F22E6900FAF877 /* animalData.json in Resources */ = {isa = PBXBuildFile; fileRef = 17D532C925F22E6900FAF877 /* animalData.json */; };
 		17D59B6925F0F3D200D50C8C /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D59B6825F0F3D200D50C8C /* LazyGridView.swift */; };
 		17D59B6C25F1024800D50C8C /* StaticDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D59B6B25F1024800D50C8C /* StaticDataView.swift */; };
 		17EE441725F0AD0A00CE21B2 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */; };
@@ -56,12 +57,13 @@
 		1711953F25EFB76800EAF561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1711954225EFB9D400EAF561 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		1711954525EFBCD200EAF561 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		17B55C8D25F34E6700A05414 /* animalData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animalData.json; sourceTree = "<group>"; };
+		17B55C9025F34E9C00A05414 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 		17D532B325F21D9600FAF877 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		17D532BA25F224BB00FAF877 /* BidirectionalCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidirectionalCollection.swift; sourceTree = "<group>"; };
 		17D532BE25F2277E00FAF877 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		17D532C225F22A1F00FAF877 /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 		17D532C525F22A7200FAF877 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		17D532C925F22E6900FAF877 /* animalData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animalData.json; path = ../../../Desktop/animalData.json; sourceTree = "<group>"; };
 		17D59B6825F0F3D200D50C8C /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		17D59B6B25F1024800D50C8C /* StaticDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDataView.swift; sourceTree = "<group>"; };
 		17EE441625F0AD0A00CE21B2 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
@@ -117,13 +119,14 @@
 				1711953F25EFB76800EAF561 /* HomeView.swift */,
 				17D532B325F21D9600FAF877 /* DatePickerView.swift */,
 				170D6A6425EBF27800078C22 /* ShapesView.swift */,
+				17B55C9025F34E9C00A05414 /* StatusBarView.swift */,
 				1711954225EFB9D400EAF561 /* DateFormatter.swift */,
 				17D532BA25F224BB00FAF877 /* BidirectionalCollection.swift */,
 				17D532BE25F2277E00FAF877 /* Animal.swift */,
 				17D532C225F22A1F00FAF877 /* AnimalView.swift */,
 				17D532C525F22A7200FAF877 /* ModelData.swift */,
-				17D532C925F22E6900FAF877 /* animalData.json */,
 				170D6A5825EBF26000078C22 /* Assets.xcassets */,
+				17B55C8D25F34E6700A05414 /* animalData.json */,
 				170D6A5D25EBF26000078C22 /* Info.plist */,
 				170D6A5A25EBF26000078C22 /* Preview Content */,
 			);
@@ -197,7 +200,7 @@
 			files = (
 				170D6A5C25EBF26000078C22 /* Preview Assets.xcassets in Resources */,
 				170D6A5925EBF26000078C22 /* Assets.xcassets in Resources */,
-				17D532CA25F22E6900FAF877 /* animalData.json in Resources */,
+				17B55C8E25F34E6700A05414 /* animalData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +232,7 @@
 				17D59B6C25F1024800D50C8C /* StaticDataView.swift in Sources */,
 				1711952825ECB8CB00EAF561 /* ModalView.swift in Sources */,
 				1711954325EFB9D400EAF561 /* DateFormatter.swift in Sources */,
+				17B55C9125F34E9C00A05414 /* StatusBarView.swift in Sources */,
 				1711953425EE81AD00EAF561 /* MaxView.swift in Sources */,
 				1711953A25EFB44700EAF561 /* VideoView.swift in Sources */,
 				1711953725EE845B00EAF561 /* TextView.swift in Sources */,

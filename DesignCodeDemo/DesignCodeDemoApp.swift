@@ -14,7 +14,8 @@ struct DesignCodeDemoApp: App {
         
         WindowGroup {
             //ContentView()
-            AnimalView()
+            //AnimalView()
+            StatusBarView()
             //LinkView()
             //SidebarView()
         }
